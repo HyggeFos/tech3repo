@@ -1,4 +1,4 @@
-name: tech3-cicd
+name: tech3-cicd-full
 
 env:
   AZURE_LOCATION: westeurope
@@ -9,7 +9,7 @@ on:
       - "main"
     paths:
       - 'src/**'
-      - '.github/workflows/tech3-cicd.yml'
+      - '.github/workflows/tech3-cicd-full.yml'
   workflow_dispatch:
 
 permissions:
